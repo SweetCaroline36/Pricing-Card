@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+  font-family: karla, sans-serif;
+  font-size: 16px;
+  --light-cyan: rgb(74, 190, 189);
+  --lighter-cyan: rgb(112, 217, 220);
+  --dark-cyan: rgb(43, 179, 177);
+  --greyish-blue: hsl(218, 22%, 67%);
+  --light-grey: hsl(204, 43%, 93%);
+  --light-yellow: rgb(191, 223, 50);
+}
+
+h2,
+h4,
+p {
+  margin: 0px;
+}
+
+#top-section h2 {
+  color: var(--dark-cyan);
+  margin-bottom: 20px;
+}
+
+#top-section h4 {
+  color: var(--light-yellow);
+  margin-bottom: 15px;
+}
+
+#top-section p {
+  color: var(--greyish-blue);
+  line-height: 20px;
+}
+
+#bottom-section h4 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+#bottom-section p {
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+#per-month {
+  position: relative;
+  opacity: 50%;
+  top: -5px;
+  margin-left: 10px;
+}
+
+#pricing {
+  margin-bottom: 6px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--light-grey);
+}
+
+#card {
+  width: clamp(375px, 600px, 1440px);
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 200px auto;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.2);
+}
+
+#top-section {
+  width: 100%;
+  height: 42%;
+  background-color: white;
+  padding: 35px;
+}
+
+#big {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.in-line {
+  display: inline;
+}
+
+#bottom-section {
+  width: 100%;
+  height: 58%;
+  color: white;
+  display: flex;
+}
+
+#bottom-left-section {
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: var(--dark-cyan);
+  padding: 35px;
+}
+
+button {
+  border: none;
+  background-color: var(--light-yellow);
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  padding: 17px;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(191, 223, 50, 0.7);
+}
+
+#bottom-right-section {
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: var(--light-cyan);
+  padding: 35px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  font-size: 0.8rem;
+  opacity: 80%;
+  padding: 3px 0px;
+}
